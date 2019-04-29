@@ -1,0 +1,17 @@
+/* ====================== Restaurant Listing ====================== */
+#restaurants-list {
+	justify-content: center;
+}
+#restaurants-list li {
+	width:228px;
+	max-height: 415px;
+	min-height: 357px;
+	padding: 2%;
+}
+#restaurants-list li h1 {
+	height: 45px;
+}
+#restaurants-list p {
+  height: 20px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,66 @@
+/* ====================== Restaurant Details ====================== */
+.inside #nav h1 {
+  padding: 23px;
+}
+#restaurant-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+#restaurant-name {
+	margin: 25px 0 0;
+	height: 30px;
+	line-height: 30px;
+	order: 1;
+	text-align: center;
+	width: 100%;
+}
+#restaurant-address {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	order: 2;
+}
+#restaurant-cuisine {
+	font-size: 15px;
+	margin: 5px 0 10px;
+	padding: 0;
+	order: 3;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+#restaurant-img {
+	max-width: 525px;
+	max-height: 400px;
+	order: 4;
+	margin: 2.5%;
+}
+#restaurant-hours {
+	padding: 5% 0 0;
+	order: 5;
+	margin:2.5%;
+	width: auto;
+}
+#restaurant-hours td{
+	font-size: 16px;
+}
+#reviews-container {
+	padding:10px 40px 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#reviews-container h2 {
+	order: 1;
+	width: 100%;
+}
+#reviews-list {
+	order: 2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#reviews-list li {
+	margin: 0 10px 30px;
+	width: 26.3%;
+}
